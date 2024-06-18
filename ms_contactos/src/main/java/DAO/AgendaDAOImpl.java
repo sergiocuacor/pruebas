@@ -11,7 +11,7 @@ import model.Contacto;
 public class AgendaDAOImpl implements AgendaDAO {
 
 	@Autowired
-	AgendaJpaSpring agenda;
+	AgendaJpaSpring agenda; // Al inyectar esta clase que hereda de JpaRepository, podemos usar sus métodos
 	
 	@Override
 	public void agregarContacto(Contacto contacto) {
