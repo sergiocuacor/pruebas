@@ -42,6 +42,7 @@ public class PersonasController {
 		 * 
 		 * Los resultados se convierten en un array de objetos Persona.
 		 */
+		
 			
 		
 		return Arrays.stream(personas).filter(p -> p.getEdad() >= edad1 && p.getEdad() <= edad2)
